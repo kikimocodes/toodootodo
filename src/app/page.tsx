@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Marquee from "react-fast-marquee";
 
 type DooDooItem = {
   text: string;
@@ -64,7 +65,7 @@ export default function Home() {
           </form>
         </div>
       </div>
-      <marquee>
+      <Marquee>
         <div className="bg-amber-200 rounded-2xl shadow-lg p-5 mt-20 w-full max-w-md">
           <ul>
             {items.map((item, idx) => (
@@ -82,7 +83,7 @@ export default function Home() {
             ))}
           </ul>
         </div>
-      </marquee>
+      </Marquee>
     </main>
   );
 }
