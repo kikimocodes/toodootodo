@@ -44,7 +44,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex min-h-screen flex-col items-center p-1">
       <div className="bg-white rounded-xl shadow-lg p-8 w-full max-w-md">
         <h1 className="text-4xl font-bold">TooDoo To-Do</h1>
         <p className="text-lg mt-2 align-center"> The worst to-do app ever</p>
